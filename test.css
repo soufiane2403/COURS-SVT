@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-rows:repeat(5,140px);
+    grid-template-columns: 70fr 30fr;
+    border: 5px solid yellow;
+    justify-items: stretch;
+    align-items: stretch;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.box{
+    background-color: gold;
+}
+.box-b{
+    grid-column: 2;
+    grid-row: 1/6;
+}
